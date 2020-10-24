@@ -1,0 +1,57 @@
+* {
+    margin : 0;
+    padding :0;
+    box-sizing: border-box;
+}
+
+h1{
+
+    color:#790e8b ;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+p{
+    margin : 2vh;
+    font-weight: bold;
+    font-family: 'Sansita Swashed', cursive;
+    color: #4a0072;
+    font-size: 1.5rem;
+
+}
+
+body {
+    background-image: url("./image/background.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.container {
+    margin: 25vh auto;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+input{
+    margin : 2vh;
+    /* text-align: center; */
+    border: 1px solid #836fa9;
+    border-radius: 10px;
+    padding : 1.25vh 1vw;
+    width: 250px;
+    outline: none;
+    font-size: 1rem;
+}
+
+button{
+    background-color: #836fa9;
+    padding:1.25vh 2vw;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 1.25rem;
+    outline: none;
+}
